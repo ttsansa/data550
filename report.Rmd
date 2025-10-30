@@ -26,6 +26,11 @@ random_numbers2 <- readRDS(
 random_numbers3 <- readRDS(
   here::here("output/random_numbers3.rds")
 )
+
+#!   read random_numbers4 from output directory
+random_numbers4 <- readRDS(
+  here::here("output/random_numbers4.rds") 
+)
 ```
 
 # Random numbers 1
